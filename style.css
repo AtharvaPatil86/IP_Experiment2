@@ -1,0 +1,97 @@
+body{
+    background-color: rgba(236, 233, 231, 0.849);
+
+}
+.navbar{
+    background-color: black;
+    height: 150px;
+    color: aliceblue;
+
+}
+.navbar ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+}
+.navbar ul li img{
+    width: 150px;
+    height: 100px;
+    margin-top: 20px;
+}
+.box1{
+    width: 104.7em;
+    height: 950px;
+    color: rgb(5, 3, 1);
+    background-image: url("A192340_web_2880.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+.box2{
+    border-radius: 20px;
+    width: 400px;
+    height: 250px;
+    margin-top: 50px;
+    margin-left: 15px;
+    margin-right: 15px;
+    background-image: url("audi-q7-facelift-left-front-three-quarter1.webp");
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+}
+.box3{
+    border-radius: 20px;
+    width: 400px;
+    height: 250px;
+    margin-top: 50px;
+    margin-left: 15px;
+    margin-right: 15px;
+    background-image: url("a6-exterior-left-side-view-10.webp");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.box2:hover{
+    transform: scale(1.5);
+}
+.box3:hover{
+    transform: scale(1.5);
+}
+.box4{
+    margin-top: 50px;
+    width: 104.4em;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+}
+.btn{
+    height: 100px;
+    width: 250px;
+    background-color: black;
+    border: 2px solid whitesmoke;
+    color: whitesmoke;
+    cursor: pointer;
+    margin-right: 200px;
+    margin-top: 50px;
+}
+footer{
+    background-color: black;
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.btn1{
+    height: 75px;
+    width: 150px;
+    color: black;
+    background-color: aliceblue;
+    margin-top: 45px;
+}
